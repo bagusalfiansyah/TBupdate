@@ -1,5 +1,4 @@
 
-// Author Yusuf Yoga Adiutama (139)
 import java.util.Scanner;
 
 
@@ -39,49 +38,49 @@ public class RuangKelas extends Ruang {
         System.out.println("Masukkan Jumlah Stopkontak/Steker : ");
         a.setJml_stek(sc.nextInt());
         System.out.println("Masukkan Kondisi Stopkontak/Steker : ");
-        a.setKond_stek(sc.nextLine());
+        a.setKond_stek(sc.next());
         System.out.println("Masukkan Posisi Stopkontak/Steker : ");
-        a.setPos_stek(sc.nextLine());
+        a.setPos_stek(sc.next());
         System.out.println("Masukkan Jumlah Kabel LCD :");
         a.setJml_klcd(sc.nextInt());
         System.out.println("Masukkan Kondisi kabel LCD : ");
-        a.setKond_klcd(sc.nextLine());
+        a.setKond_klcd(sc.next());
         System.out.println("Masukkan Posisi kabel LCD : ");
-        a.setPos_klcd(sc.nextLine());
+        a.setPos_klcd(sc.next());
         System.out.println("Masukkan Jumlah Lampu : ");
         a.setJml_lamp(sc.nextInt());
         System.out.println("Masukkan Kondisi Lampu : ");
-        a.setKond_lamp(sc.nextLine());
+        a.setKond_lamp(sc.next());
         System.out.println("Masukkan Posisi Lampu : ");
-        a.setPos_lamp(sc.nextLine());
+        a.setPos_lamp(sc.next());
         System.out.println("Masukkan Jumlah Kipas Angin : ");
         a.setJml_kipas(sc.nextInt());
         System.out.println("Masukkan Kondisi Kipas Angin : ");
-        a.setKond_kipas(sc.nextLine());
+        a.setKond_kipas(sc.next());
         System.out.println("Masukkan Posisi Kipas Angin : ");
-        a.setPos_kipas(sc.nextLine());
+        a.setPos_kipas(sc.next());
         System.out.println("Masukkan Jumlah AC : ");
         a.setAc(sc.nextInt());
         System.out.println("Masukkan Kondisi AC : ");
-        a.setKond_ac(sc.nextLine());
+        a.setKond_ac(sc.next());
         System.out.println("Masukkan Posisi AC : ");
-        a.setPos_ac(sc.nextLine());
+        a.setPos_ac(sc.next());
         System.out.println("Pilih SSID : ");
-        a.setSSID(sc.nextLine());
+        a.setSSID(sc.next());
         System.out.println("Masukkan Bandwidth : ");
-        a.setBw(sc.nextLine());
+        a.setBw(sc.next());
         System.out.println("Masukkan Jumlah CCTV : ");
         a.setCctv(sc.nextInt());
         System.out.println("Masukkan Kondisi CCTV : ");
-        a.setKond_cctv(sc.nextLine());
+        a.setKond_cctv(sc.next());
         System.out.println("Masukkan Posisi CCTV : ");
-        a.setPos_cctv(sc.nextLine());
+        a.setPos_cctv(sc.next());
     }
 
     @Override
     void kebersihan(){
         System.out.println("Masukkan kondisi sirkulasi udara (lancar/tidak) : ");
-        a.setUdara(sc.nextLine());
+        a.setUdara(sc.next());
         System.out.println("Masukkan nilai pencahayaan : ");
         a.setCahaya(sc.nextInt());
         System.out.println("Masukkan nilai kelembaban  : ");
@@ -91,42 +90,42 @@ public class RuangKelas extends Ruang {
     }
     void kenyamanan(){
         System.out.println("Masukkan kondisi kebisingan (bising/tidak) : ");
-        a.setBising(sc.nextLine());
+        a.setBising(sc.next());
         System.out.println("Masukkan kondisi bau (bau/tidak) : ");
-        a.setBau(sc.nextLine());
+        a.setBau(sc.next());
         System.out.println("Masukkan kondisi kebocoran (bocor/tidak) : ");
-        a.setBocor(sc.nextLine());
+        a.setBocor(sc.next());
         System.out.println("Masukkan kondisi kerusakan (rusak/tidak) : ");
-        a.setRusak(sc.nextLine());
+        a.setRusak(sc.next());
         System.out.println("Masukkan kondisi keausan(aus/tidak) : ");
-        a.setAus(sc.nextLine());
+        a.setAus(sc.next());
     }
     
     @Override
     void Lingkungan(){
         System.out.println("Masukkan kondisi lantai : ");
-        a.setLantai(sc.nextLine());
+        a.setLantai(sc.next());
         System.out.println("Masukkan kondisi dinding : ");
-        a.setDinding(sc.nextLine());
+        a.setDinding(sc.next());
         System.out.println("Masukkan kondisi atap : ");
-        a.setAtap(sc.nextLine());
+        a.setAtap(sc.next());
         System.out.println("Masukkan kondisi pintu : ");
-        a.setPintu(sc.nextLine());
+        a.setPintu(sc.next());
         System.out.println("Masukkan kondisi jendela : ");
-        a.setJendela(sc.nextLine());
+        a.setJendela(sc.next());
     }
     
     @Override
     void keamanan(){
         System.out.println("Apakah Kokoh ?? (Y/N) ");
-        a.setKokoh(sc.nextLine());
-        a.setKokoh(sc.nextLine());
+        a.setKokoh(sc.next());
+        a.setKokoh(sc.next());
         System.out.println("Apakah Ada kunci pintu ? (Y/N)");
-        a.setKnc_pintu(sc.nextLine());
+        a.setKnc_pintu(sc.next());
         System.out.println("Apakah Ada Kunci Jendela ? (Y/N)");
-        a.setKnc_jendela(sc.nextLine());
+        a.setKnc_jendela(sc.next());
         System.out.println("Bayaha apa enggak yang ? (Y/N)");
-        a.setBahaya(sc.nextLine());
+        a.setBahaya(sc.next());
     }
 
     @Override
